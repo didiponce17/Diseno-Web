@@ -1,2 +1,2 @@
-# Diseno-Web
+# Diseño Web
 Diseño Responsivo
