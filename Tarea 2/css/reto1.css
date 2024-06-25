@@ -1,0 +1,48 @@
+body {
+  background-color: #fbfff4;
+  margin: 0;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+nav.navbar {
+  z-index: 99;
+}
+
+.navbar {
+  background-color: #8bc34a;
+}
+
+.nav-link {
+  color: #795548;
+}
+
+.title {
+  display: inline-block;
+  position: relative;
+}
+
+.title::before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 5px;
+  background-color: #689f38;
+  position: absolute;
+  top: -10px; /* Ajusta esta distancia según sea necesario */
+  left: 0;
+}
+
+.highlight {
+  color: #689f38;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #795548;
+  text-align: center;
+  background-color: #8bc34a;
+}

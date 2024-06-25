@@ -1,0 +1,34 @@
+body {
+  background-color: #fbfff4;
+  margin: 0;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+nav.navbar {
+  z-index: 99;
+}
+
+.navbar {
+  background-color: #006691;
+}
+
+.nav-link {
+  color: #00f9fb;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #00f9fb;
+  text-align: center;
+  background-color: #006691;
+}
+
+@media (min-width: 992px) {
+  .row {
+    padding: 150px;
+  }
+}
