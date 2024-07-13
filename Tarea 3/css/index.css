@@ -1,0 +1,365 @@
+body {
+  background-color: #85351e;
+  margin: 0;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+@font-face {
+  font-family: "miFuente1";
+  src: url(../fuente/the_biker_brother.ttf);
+}
+
+@font-face {
+  font-family: "miFuente2";
+  src: url(../fuente/bunnyrunny.otf);
+}
+
+#fuente1 {
+  font-family: "miFuente1";
+  font-size: 150px;
+  color: #e8a793;
+}
+
+#fuente2 {
+  font-family: "miFuente2";
+  font-size: 25px;
+  color: #d38d5a;
+}
+
+#fuente3 {
+  font-family: "miFuente1";
+  font-size: 80px;
+  color: #85351e;
+}
+
+#fuente4 {
+  font-family: "miFuente2";
+  font-size: 20px;
+  color: #d38d5a;
+}
+
+#fuente5 {
+  font-family: "miFuente1";
+  font-size: 20px;
+  color: #85351e;
+}
+
+#fuente6 {
+  font-family: "miFuente2";
+  font-size: 35px;
+  color: #e8a793;
+}
+#fuente7 {
+  font-family: "miFuente1";
+  font-size: 65px;
+  color: #85351e;
+}
+
+#fuente8 {
+  font-family: "miFuente1";
+  font-size: 70px;
+  color: #e8a793;
+}
+
+#fuente9 {
+  font-family: "miFuente1";
+  font-size: 80px;
+  color: #85351e;
+}
+
+#fuente10 {
+  font-family: "miFuente2";
+  font-size: 30px;
+  color: #85351e;
+}
+
+.info {
+  padding-top: 20px;
+}
+
+.banner-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+
+.espacio {
+  padding: 35px 0;
+}
+
+.video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+video#video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.btn1 {
+  font-size: 2.5rem;
+  font-family: "miFuente2";
+  border-color: #e8a793;
+  color: #e8a793;
+}
+
+.btn1:hover {
+  background-color: #85351e;
+  border-color: #85351e;
+  color: #e8a793;
+}
+
+.titulajes {
+  font-family: "miFuente2";
+  color: #e8a793;
+  font-size: 35px;
+}
+
+.negrita {
+  font-family: "miFuente1";
+  font-size: 80px;
+  color: #e8a793;
+}
+
+/* Seccion 2*/
+
+.container-fluid {
+  background-color: #e8a793;
+  padding-top: 100px;
+}
+
+.image-text-left {
+  text-align: left;
+  color: #85351e;
+}
+
+.image-hover-wrap {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #85351e !important;
+}
+
+.image-hover-wrap img {
+  display: block;
+  width: 100%;
+}
+
+.image-hover-wrap figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #85351e !important;
+  color: #e8a793;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: "miFuente2";
+  font-size: 16px;
+}
+
+.image-hover-wrap:hover figcaption {
+  opacity: 1;
+  background-color: #85351e !important;
+}
+
+/* Reserva*/
+
+.reserva {
+  background: #85351e;
+  padding: 50px;
+}
+
+.reserva .row {
+  margin-top: 30px;
+}
+
+.reserva form input {
+  padding: 10px;
+  color: #85351e;
+  border: none;
+  outline: none;
+  font-family: "miFuente2";
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px -6px #85351e;
+}
+
+.reserva .submit {
+  width: 160px;
+  font-family: "miFuente2";
+  font-size: 25px;
+  font-weight: 550;
+  background: #e8a793;
+  color: #85351e;
+  margin-top: 10px;
+  transition: background 0.5s; /* Ajustar la transición al background */
+}
+
+.reserva .submit:hover {
+  width: 170px;
+  background: #d38d5a; /* Cambiar el color en el hover */
+}
+
+/* banner*/
+.bannerparallax {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  /*control altura del banner*/
+  height: calc(40vh);
+  background-position: center;
+  background-image: url("../img/banner.jpg");
+  background-blend-mode: multiply;
+}
+
+/* Mapa Google*/
+
+.mapa {
+  margin: 0;
+  margin-bottom: 0;
+}
+
+/*Galeria*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 90px;
+  height: 90px;
+
+  background-color: #d38d5a;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../img/prev.svg") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../img/next.svg") !important;
+}
+
+/* scrolltop*/
+
+.goto-top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+/* formulario*/
+.espacio2 {
+  padding: 50px 0;
+}
+
+.fondo2 {
+  background-color: #e8a793;
+}
+
+#forma {
+  font-family: "miFuente2" !important;
+  font-size: 24px;
+  color: #85351e;
+}
+
+.enviar {
+  width: 170px;
+  height: 60px;
+  color: #e8a793;
+  margin: 0 auto;
+  font-family: "miFuente2";
+  font-size: 26px;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px 20px;
+  border-width: 2px;
+  border-color: #85351e;
+  background-color: #85351e !important;
+  border-radius: 10px;
+}
+
+.borrar {
+  color: #e8a793;
+  width: 170px;
+  height: 60px;
+  margin: 0 auto;
+  font-family: "miFuente2";
+  font-size: 26px;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px 20px;
+  border-width: 2px;
+  border-color: #85351e;
+  background-color: #85351e !important;
+  border-radius: 10px;
+}
+
+/* Boton Whats app*/
+.whatsapp-button {
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+  background-color: #25d366;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebc59;
+}
+
+.whatsapp-button img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Media Querys*/
+
+@media (max-width: 768px) {
+  #fuente1 {
+    font-size: 80px;
+  }
+
+  #fuente2 {
+    font-size: 18px;
+  }
+
+  .btn1 {
+    font-size: 1.5rem;
+  }
+  .bannerparallax {
+    height: calc(100vh);
+  }
+}
