@@ -1,0 +1,156 @@
+body {
+  font-family: "Mynerve", cursive;
+  scroll-behavior: smooth;
+  background: #dac9df;
+}
+
+/*********************  MENU NAV ******************************/
+
+nav {
+  background-color: #81638b;
+  box-shadow: 5px 5px 8px #9ce0db;
+}
+
+.nav-item a {
+  font-size: 1.5rem;
+  color: #5dc1b9;
+  margin: 0 10px;
+  transition: all 0.7s ease-in;
+}
+
+.nav-item a:hover {
+  color: #b695c0;
+  background-color: #f7bfd8;
+  border-radius: 5px;
+}
+
+.navigation-wrap .nav-item {
+  padding: 5px 0;
+}
+
+.navbar-toggler {
+  border: 2px solid #dac9df;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler i {
+  color: #dac9df;
+  font-size: 27px;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.dropdown-menu {
+  background-color: #fbd6e7;
+  border: none;
+}
+
+.logo1 {
+  border-radius: 25%;
+  max-height: 180px;
+}
+
+/*********************  SECTION 1  ******************************/
+
+.container-recetas {
+  margin-top: 200px;
+}
+
+.titulos {
+  font-size: 3.5rem;
+  color: #5dc1b9;
+}
+
+.subtitulo {
+  background-color: #f7bfd8;
+  color: #5dc1b9;
+  font-size: 1.5rem;
+}
+
+.card-title {
+  color: #81638b;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #5dc1b9;
+}
+
+/*grupo de listas*/
+
+.lista:hover {
+  color: #81638b;
+  background-color: #9ce0db;
+  border-color: #81638b;
+  border-width: 2px;
+}
+
+.lista {
+  color: #81638b;
+  font-weight: bold;
+}
+
+.logo2 {
+  border-radius: 25%;
+  max-height: 100px;
+}
+/*********************  FOOTER ******************************/
+#footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  color: #5dc1b9;
+  text-align: center;
+  background-color: #81638b;
+}
+
+/*********************  SCROLLTOP ******************************/
+.goto-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 90px;
+  height: 90px;
+}
+
+/*********************  BOTON WHATSAPP ******************************/
+.whatsapp-button {
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  background-color: #25d366;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebc59;
+}
+
+.whatsapp-button img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .titulos {
+    font-size: 2.5rem;
+  }
+  .container-recetas {
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,327 @@
+body {
+  font-family: "Mynerve", cursive;
+  scroll-behavior: smooth;
+  background: #dac9df;
+}
+
+/*********************  MENU NAV ******************************/
+
+nav {
+  background-color: #81638b;
+  box-shadow: 5px 5px 8px #9ce0db;
+}
+
+.nav-item a {
+  font-size: 1.5rem;
+  color: #5dc1b9;
+  margin: 0 10px;
+  transition: all 0.7s ease-in;
+}
+
+.nav-item a:hover {
+  color: #b695c0;
+  background-color: #f7bfd8;
+  border-radius: 5px;
+}
+
+.navigation-wrap .nav-item {
+  padding: 5px 0;
+}
+
+.navbar-toggler {
+  border: 2px solid #dac9df;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler i {
+  color: #dac9df;
+  font-size: 27px;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.dropdown-menu {
+  background-color: #fbd6e7;
+  border: none;
+}
+
+.logo1 {
+  border-radius: 25%;
+  max-height: 180px;
+}
+
+/*********************  TITULOS Y TEXTOS ******************************/
+
+.titulos {
+  font-size: 3.5rem;
+  color: #5dc1b9;
+}
+
+.subtitulo1 {
+  font-size: 2rem;
+  color: #81638b;
+}
+
+.subtitulo2 {
+  font-size: 1.3rem;
+  color: #81638b;
+}
+
+.accordion-button.subtitulo2 {
+  font-size: 1.5rem;
+}
+
+.subtitulo3 {
+  font-size: 1.8rem;
+  color: #81638b;
+}
+
+.subtitulos {
+  font-size: 2.2rem;
+}
+
+.texto1 {
+  vertical-align: top;
+  font-size: 1.3rem;
+  display: inline-block;
+  margin-top: 15px;
+  color: #5dc1b9;
+}
+
+.texto2 {
+  font-size: 2.8rem;
+  font-weight: 300;
+  color: #b695c0;
+}
+
+/*********************  SECTION 1 ******************************/
+
+.container-paquetes {
+  margin-top: 150px;
+}
+
+.espacio1 {
+  padding: 50px 0;
+}
+
+i {
+  color: #b695c0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f7bfd8;
+}
+
+/* clase principal de cada columna*/
+
+.price-table {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: #81638b;
+  border: 2px solid #d6d6d6;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+.price-table:hover {
+  background-color: #5dc1b9 !important;
+  margin-top: -40px;
+  z-index: 10;
+  transform: scale(1.2);
+  transition: all 0.2s ease-in;
+  border: none;
+  box-shadow: rgba(127, 197, 207, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.5) 0px 30px 60px -30px;
+}
+
+.price-table:hover * {
+  color: #81638b;
+}
+
+/*********************  SECTION 2 ******************************/
+
+.accordion-body {
+  background-color: #f7bfd8;
+  color: #5dc1b9;
+}
+
+/*justificar textos*/
+
+.justificar {
+  text-align: justify;
+  text-indent: 0rem;
+  margin: 0;
+}
+
+/*cambiar color a las flechas finales de cada seccion*/
+
+.accordion-button:is(.collapsed)::after {
+  box-shadow: none;
+  background-color: #fbd6e7;
+}
+
+.accordion-button:not(.collapsed)::after {
+  box-shadow: none;
+  background-color: #fbd6e7;
+}
+
+/*estado actual*/
+
+.accordion-button {
+  color: #fbd6e7;
+  background-color: #81638b;
+  font-size: 20px;
+}
+
+/*La pseudo-clase :last-child de CSS representa el último elemento entre un grupo de elementos hermanos.*/
+
+.accordion-button:last-child {
+  background-color: #81638b;
+}
+
+/*estado sobre*/
+
+.accordion-button:hover {
+  color: #81638b;
+  background-color: #9ce0db;
+}
+
+/*estado activo*/
+
+.accordion-button:focus {
+  color: #fbd6e7;
+  background-color: #5dc1b9;
+}
+
+/*********************  Section 3 ******************************/
+.progress {
+  margin-bottom: 0.1rem; /* Ajusta la separación entre barras de progreso */
+  margin-top: 1.2rem;
+  height: 30px;
+}
+
+/*********************  FOOTER ******************************/
+#footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  color: #5dc1b9;
+  text-align: center;
+  background-color: #81638b;
+}
+
+/*********************  SCROLLTOP ******************************/
+.goto-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 90px;
+  height: 90px;
+}
+
+/*********************  BOTON WHATSAPP ******************************/
+.whatsapp-button {
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  background-color: #25d366;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebc59;
+}
+
+.whatsapp-button img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Media Queries para vistas móviles */
+@media (max-width: 768px) {
+  .container-paquetes {
+    margin-top: 80px;
+  }
+
+  .container-preguntas {
+    margin-top: 10px;
+  }
+
+  .container-productos {
+    margin-top: 10px;
+  }
+
+  .price-table {
+    margin-bottom: 15px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .titulos {
+    font-size: 2.5rem;
+  }
+
+  .subtitulo1 {
+    font-size: 1.5rem;
+  }
+
+  .subtitulo2 {
+    font-size: 1rem;
+  }
+
+  .accordion-button.subtitulo2 {
+    font-size: 1.2rem;
+  }
+
+  .subtitulo3 {
+    font-size: 1.3rem;
+  }
+
+  .subtitulos {
+    font-size: 2rem;
+  }
+
+  .texto1 {
+    font-size: 1rem;
+  }
+
+  .texto2 {
+    font-size: 2rem;
+  }
+}
